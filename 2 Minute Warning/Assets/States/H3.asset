@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88836c4a4f711f34d948806fabed62f2, type: 3}
+  m_Name: H3
+  m_EditorClassIdentifier: 
+  storyText: 'Rod Smith Catches the Screen and runs up the sideline with an entourage
+    of blockers for 40 yards!
+
+
+    TOUCHDOWN!
+
+
+    BRONCOS WIN BRONCOS WIN
+
+
+    Press 1 to play again
+
+    Press 2 for Main menu'
+  nextStates:
+  - {fileID: 11400000, guid: dc3b53d5d189ed6418624b1f3b587ff7, type: 2}
+  - {fileID: 11400000, guid: 5d3cd62d4bf2f6347a9f16ce67139bf5, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88836c4a4f711f34d948806fabed62f2, type: 3}
+  m_Name: F1
+  m_EditorClassIdentifier: 
+  storyText: 'You run a delayed draw and pick up 15 yards!
+
+
+    It''s 3rd and 5 from your opponents 25 yard line with 20 seconds remaining.
+
+
+    what will you do?
+
+
+    1- If it ain''t broke don''t fix it, run the rock
+
+    2- Play Action Pass.'
+  nextStates:
+  - {fileID: 11400000, guid: d7bae8bd9b6caf74889b5bb917774052, type: 2}
+  - {fileID: 11400000, guid: 55a3c1a31a6813f448b528a9eb43cb7f, type: 2}

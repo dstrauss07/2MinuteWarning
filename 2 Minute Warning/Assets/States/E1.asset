@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88836c4a4f711f34d948806fabed62f2, type: 3}
+  m_Name: E1
+  m_EditorClassIdentifier: 
+  storyText: 'Sack!
+
+
+    John Elway is crushed for a huge loss!
+
+
+    It''s now 2nd and 20 from the Opponents 40.
+
+    There is 40 seconds remaining.
+
+
+    What will you do?
+
+    1-Run a delayed draw
+
+    2-throw it deep '
+  nextStates:
+  - {fileID: 11400000, guid: 09ad06c871d2d274e83fe41d8f1d985b, type: 2}
+  - {fileID: 11400000, guid: 17b8947c35d57f64c9cb340b977d1648, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88836c4a4f711f34d948806fabed62f2, type: 3}
+  m_Name: B1
+  m_EditorClassIdentifier: 
+  storyText: 'Incomplete!
+
+
+    John Elway throws the ball deep to Rod Smith, but the ball is thrown too far!
+
+
+    It is 2nd and 10 from your own 20.  There is 1 Minute and 50 seconds remaining.
+
+
+    What will you do?
+
+    1- throw a quick out to the sideline.
+
+    2- guess I''ll try that screen pass'
+  nextStates:
+  - {fileID: 11400000, guid: 7fd7eeffd174e76418bc4555551adac8, type: 2}
+  - {fileID: 11400000, guid: ccd21bcfb26a0d34cb167b1586982cf2, type: 2}

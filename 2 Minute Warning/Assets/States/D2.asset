@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88836c4a4f711f34d948806fabed62f2, type: 3}
+  m_Name: D2
+  m_EditorClassIdentifier: 
+  storyText: 'The Deep Cross goes for a huge gain as Shannon Sharpe makes an amazing
+    catch!
+
+
+    It''s First Down and 10 from the opponents 20 with 45 Seconds remaining.
+
+
+    What will you do?
+
+    1-Run it up the gut
+
+    2-Screen pass to the WR'
+  nextStates:
+  - {fileID: 11400000, guid: 5a45fb04aca086846a2df0b8743d7be3, type: 2}
+  - {fileID: 11400000, guid: 92953535e34c6da43aa53846b55cb693, type: 2}

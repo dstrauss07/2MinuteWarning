@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88836c4a4f711f34d948806fabed62f2, type: 3}
+  m_Name: E4
+  m_EditorClassIdentifier: 
+  storyText: 'Incomplete!
+
+
+    You''re under terrible pressure and throw the ball away at the last possible second.
+
+
+    It''s 2nd and 10 from the oponents 20 with 30 seconds remaining.
+
+
+    what do you do?
+
+
+    1- Throw a shallow cross
+
+    2- Try a flea-flicker'
+  nextStates:
+  - {fileID: 11400000, guid: 40ce8841b0d703348b9857ff25f31fb9, type: 2}
+  - {fileID: 11400000, guid: bc3a7ab7649efd443aa3ed9e209e5235, type: 2}

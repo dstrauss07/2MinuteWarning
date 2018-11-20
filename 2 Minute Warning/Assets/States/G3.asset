@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88836c4a4f711f34d948806fabed62f2, type: 3}
+  m_Name: G3
+  m_EditorClassIdentifier: 
+  storyText: 'INCOMPLETE!
+
+
+    Ed Mccafery can''t come down with it with both feet inbounds.
+
+
+    It''s 4th and 20 from your opponents 40 with  20 seconds remaning.
+
+
+    what do you do?
+
+
+    1- Try a screen
+
+    2- Hail Mary
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: bcb72ecba2af77443b3ce93704e8e6bc, type: 2}
+  - {fileID: 11400000, guid: 29410abb22d0b0b41bee06608f7239cf, type: 2}

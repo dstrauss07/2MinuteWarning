@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88836c4a4f711f34d948806fabed62f2, type: 3}
+  m_Name: E3
+  m_EditorClassIdentifier: 
+  storyText: "You run it up the gut, demolishing all competition taking it all the
+    way to the 1 yard line.\n\nIt's 1st and Goal from the 1 with 30 seconds remaining.
+    \ \n\nWhat do you do?\n\n1- Run it up the middle with the fullback\n2- Play action
+    pass"
+  nextStates:
+  - {fileID: 11400000, guid: a5ac3f5d718cd51419935dc6877bba8d, type: 2}
+  - {fileID: 11400000, guid: dcde9cbfa3c4ecd45bc8dff86f5a6ce6, type: 2}

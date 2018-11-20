@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88836c4a4f711f34d948806fabed62f2, type: 3}
+  m_Name: B2
+  m_EditorClassIdentifier: 
+  storyText: 'COMPLETE!
+
+
+    John Elway tosses the ball to Terrell Davis who rumbles down the sideline going
+    out of bounds for 20 yards.
+
+
+    It''s First Down and 10 From your Own 40. There are 1 minute and 45 Seconds Remaining.
+
+
+    What will You Do?
+
+
+    1. Run the Ball up the middle?
+
+    2. Throw a quick out to the sideline?
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: c7d78cd45ff5bd746973981ae76115ab, type: 2}
+  - {fileID: 11400000, guid: 249d90f341fa02541a5b5bc9e33dfca2, type: 2}
